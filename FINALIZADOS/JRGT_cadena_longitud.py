@@ -1,8 +1,8 @@
 class cadena:
   def longitudCadena(self):
     x=input("Palabra: ")
-    y=x.lower()
-    y=y[0].upper()+y[1:]
+    y=x
+    y=y[1:]
     contador=0
     for i in x:
       contador+=1
@@ -12,4 +12,3 @@ class cadena:
 
 cadena=cadena()
 cadena.longitudCadena()
-
