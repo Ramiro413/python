@@ -1,4 +1,4 @@
-class Califi:
+class califi:
     def num(self):
         var=input("Dame un número entre 0 y 10: ")
         
